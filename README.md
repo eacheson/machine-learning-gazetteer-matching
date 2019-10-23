@@ -15,7 +15,7 @@ In _/data/_, we share our annotated data, _annotated_sample.csv_ as well as some
 - GeoNames daily dumps: [http://download.geonames.org/export/dump/] then choose CH.zip for the Switzerland data
 - SwissNames3D latest version: [https://shop.swisstopo.admin.ch/en/products/landscape/names3D]
 
-Note these datasets will not be identical to the ones used in this paper, which were downloaded in 2017. Data preparation involving the raw datasets is described and performed in the preparation notebooks.
+Note these datasets will not be identical to the ones used in this paper, which were downloaded in 2017. In particular, SwissNames3D may change UUIDs for certain records in newer versions. Data preparation involving the raw datasets is described and performed in the preparation notebooks. Contact the first author of the associated paper with any data requests.
 
 ### Results
 The _/results/_ folder contains tsv files used to plot the results in the paper. The _/html_exports/_ contains html exports of all the notebooks for easy viewing in a browser.
